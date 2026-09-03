@@ -69,3 +69,53 @@ Para optimizar las 40 horas disponibles (20 horas por integrante), se establece 
 * **Cero alucinaciones o datos opacos:** Cada métrica presentada debe provenir del procesamiento reproducible de los 799 comentarios recolectados.
 * **Orientación gerencial:** No limitarse a métricas de machine learning (F1-score o Loss); traducir cada hallazgo a impacto comercial, retención de clientes (Churn) y calidad percibida.
 * **Normas APA 7ma Edición:** Citar fuentes técnicas, repositorios de modelos y documentación oficial en la Sección 6.20.
+
+---
+
+## 6. Protocolo de Trabajo Colaborativo para Agentes de IA (Branching & Review Guidelines)
+
+> [!IMPORTANT]
+> **REGLA DE ORO PARA TODOS LOS AGENTES DE IA (Codex, Gemini, Claude, Copilot, etc.):**  
+> **NUNCA realizar commits ni push directos sobre la rama `main`**. La rama `main` es sagrada y representa la versión estable y consolidada para entrega académica.
+
+Para garantizar una colaboración armónica y evitar sobrescrituras destructivas cuando ambos integrantes (Audric y Orlando) trabajen en paralelo con asistentes de IA en sus respectivas máquinas:
+
+### 6.1. Creación Obligatoria de Ramas Personales
+Todo agente que inicie una sesión de trabajo debe verificar su rama actual y crear/conmutar a una rama de trabajo con el prefijo del integrante correspondiente:
+
+* **Si el agente asiste a Orlando Benítez (ej. Codex / Claude / Copilot):**
+  ```bash
+  # Crear y posicionarse en la rama de trabajo de Orlando
+  git checkout -b orlando/mejora-bi
+  # O ramas por tarea específica:
+  git checkout -b orlando/ajustes-dashboard
+  git checkout -b orlando/revision-informe
+  ```
+* **Si el agente asiste a Audric Rosario:**
+  ```bash
+  git checkout -b audric/<nombre-de-tarea>
+  ```
+
+### 6.2. Convención de Commits y Sincronización
+* El agente debe registrar cada avance significativo utilizando **Conventional Commits** (`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`).
+* Publicar la rama en el repositorio remoto para que ambos compañeros puedan visualizarla:
+  ```bash
+  git push -u origin orlando/<nombre-de-rama>
+  ```
+
+### 6.3. Protocolo de Revisión Cruzada (Peer Review & Merge)
+1. **Inspección de Diferencias:** Antes de incorporar cambios a `main`, Audric y Orlando revisarán los *diffs* en GitHub o mediante un Pull Request (PR).
+2. **Selección de la Mejor Versión:** Se evaluarán las contribuciones generadas por los agentes de ambos lados (por ejemplo: la versión de redacción de negocio de Orlando frente a la de Audric) para combinar lo mejor de cada una sin perder coherencia.
+3. **Fusión Controlada a `main`:** Únicamente tras la validación mutua de ambos integrantes se realizará el merge a `main`:
+  ```bash
+  git checkout main
+  git pull origin main
+  git merge orlando/<nombre-de-rama>
+  git push origin main
+  ```
+
+### 6.4. Preservación de la Integridad del Proyecto
+* **Datos Crudos Intocables:** El dataset congelado en `data/raw/` (799 comentarios reales de la YouTube Data API) es la base empírica oficial. Ningún agente debe sobrescribirlo ni reemplazarlo con datos sintéticos.
+* **Estructura Académica Inmutable:** Las 21 secciones del informe (6.1 a 6.21) son mandatorias por la rúbrica de la UAPA. Ningún agente puede alterar o eliminar secciones del informe final.
+* **Herramientas 100% Gratuitas:** Queda estrictamente prohibido introducir librerías o APIs que requieran pagos o suscripciones comerciales.
+
