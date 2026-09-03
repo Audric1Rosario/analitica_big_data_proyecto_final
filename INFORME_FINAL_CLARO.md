@@ -112,7 +112,7 @@ El conjunto de datos analizado fue extraído directamente de la plataforma YouTu
 
 ## 6.7. Preparación de los Datos
 
-El texto en redes sociales presenta alta informalidad léxica, errores ortográficos, regionalismos dominicanos y emoticonos. El módulo [`src/preprocesamiento.py`](file:///c:/Users/audri/Desktop/Documentos/UAPA/15.%20Aplicaciones%20Anal%C3%ADticas%20de%20Big%20Data/proyecto_final/src/preprocesamiento.py) ejecutó las siguientes etapas de higienización:
+El texto en redes sociales presenta alta informalidad léxica, errores ortográficos, regionalismos dominicanos y emoticonos. El módulo [`src/preprocesamiento.py`](src/preprocesamiento.py) ejecutó las siguientes etapas de higienización:
 
 ```mermaid
 graph LR
@@ -218,7 +218,7 @@ Conforme a los lineamientos de la rúbrica, cada visualización responde a una p
 
 ## 6.11. Dashboard Ejecutivo
 
-El Dashboard Ejecutivo fue implementado en un panel autónomo interactivo desarrollado en **Plotly** y compilado en el archivo [`dashboard/dashboard_ejecutivo_claro.html`](file:///c:/Users/audri/Desktop/Documentos/UAPA/15.%20Aplicaciones%20Anal%C3%ADticas%20de%20Big%20Data/proyecto_final/dashboard/dashboard_ejecutivo_claro.html).
+El Dashboard Ejecutivo fue implementado en un panel autónomo interactivo desarrollado en **Plotly** y compilado en el archivo [`dashboard/dashboard_ejecutivo_claro.html`](dashboard/dashboard_ejecutivo_claro.html).
 
 ### Estructura y Componentes del Dashboard Integrado
 

@@ -33,7 +33,7 @@
 ### [01:15 - 02:30] Bloque 2: Objetivos y Estrategia de Datos con YouTube API v3
 * **Orador:** **Audric Rosario**  
 * **🎬 ELEMENTO EN PANTALLA:** **[TRANSICIÓN: De PPT Diapositiva 3 a VS CODE / DATA RAW]**  
-* **Instrucción de Transición:** Mostrar Diapositiva 3 (Arquitectura de Datos) de 01:15 a 01:45. Al segundo 01:45, **compartir pantalla con VS Code** mostrando el archivo [`src/extractor_youtube.py`](file:///c:/Users/audri/Desktop/Documentos/UAPA/15.%20Aplicaciones%20Anal%C3%ADticas%20de%20Big%20Data/proyecto_final/src/extractor_youtube.py) y la carpeta [`data/raw/`](file:///c:/Users/audri/Desktop/Documentos/UAPA/15.%20Aplicaciones%20Anal%C3%ADticas%20de%20Big%20Data/proyecto_final/data/raw/).
+* **Instrucción de Transición:** Mostrar Diapositiva 3 (Arquitectura de Datos) de 01:15 a 01:45. Al segundo 01:45, **compartir pantalla con VS Code** mostrando el archivo [`src/extractor_youtube.py`](src/extractor_youtube.py) y la carpeta [`data/raw/`](data/raw/).
 
 > **Audric:**  
 > *(Con Diapositiva 3 en pantalla)*  
@@ -52,7 +52,7 @@
 ### [02:30 - 04:00] Bloque 3: Preprocesamiento y Modelo NLP Transformer
 * **Orador:** **Audric Rosario**  
 * **🎬 ELEMENTO EN PANTALLA:** **[TRANSICIÓN: De VS CODE a JUPYTER NOTEBOOK y PPT Diapositiva 4]**  
-* **Instrucción de Transición:** Mostrar en pantalla [`notebooks/analitica_claro_youtube.ipynb`](file:///c:/Users/audri/Desktop/Documentos/UAPA/15.%20Aplicaciones%20Anal%C3%ADticas%20de%20Big%20Data/proyecto_final/notebooks/analitica_claro_youtube.ipynb) ejecutando las celdas de limpieza y clasificación. Al segundo 03:20, volver a la Diapositiva 4 (Métricas NLP) de la presentación.
+* **Instrucción de Transición:** Mostrar en pantalla [`notebooks/analitica_claro_youtube.ipynb`](notebooks/analitica_claro_youtube.ipynb) ejecutando las celdas de limpieza y clasificación. Al segundo 03:20, volver a la Diapositiva 4 (Métricas NLP) de la presentación.
 
 > **Audric:**  
 > *(Mostrando Jupyter Notebook: celdas de limpieza fonética)*  
@@ -69,7 +69,7 @@
 ### [04:00 - 05:30] Bloque 4: Visualizaciones y Demostración en Vivo del Dashboard Plotly
 * **Orador:** **Orlando Benítez**  
 * **🎬 ELEMENTO EN PANTALLA:** **[NAVEGADOR WEB: DASHBOARD INTERACTIVO PLOTLY EN VIVO]**  
-* **Instrucción de Transición:** Compartir pantalla completa con el navegador web ejecutando [`dashboard/dashboard_ejecutivo_claro.html`](file:///c:/Users/audri/Desktop/Documentos/UAPA/15.%20Aplicaciones%20Anal%C3%ADticas%20de%20Big%20Data/proyecto_final/dashboard/dashboard_ejecutivo_claro.html). Orlando pasa el ratón sobre los 4 KPIs superiores y luego interactúa con las gráficas de Plotly.
+* **Instrucción de Transición:** Compartir pantalla completa con el navegador web ejecutando [`dashboard/dashboard_ejecutivo_claro.html`](dashboard/dashboard_ejecutivo_claro.html). Orlando pasa el ratón sobre los 4 KPIs superiores y luego interactúa con las gráficas de Plotly.
 
 > **Orlando:**  
 > *(Navegador web mostrando la cabecera y tarjetas de KPIs)*  

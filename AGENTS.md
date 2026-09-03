@@ -119,3 +119,9 @@ Todo agente que inicie una sesión de trabajo debe verificar su rama actual y cr
 * **Estructura Académica Inmutable:** Las 21 secciones del informe (6.1 a 6.21) son mandatorias por la rúbrica de la UAPA. Ningún agente puede alterar o eliminar secciones del informe final.
 * **Herramientas 100% Gratuitas:** Queda estrictamente prohibido introducir librerías o APIs que requieran pagos o suscripciones comerciales.
 
+### 6.5. Uso Mandatorio de Rutas Relativas en Enlaces Markdown
+Para garantizar que toda la documentación sea 100% navegable en GitHub y en cualquier clon local del repositorio:
+* **TODO enlace dentro de archivos Markdown (`.md`) DEBE utilizar rutas relativas al proyecto** (por ejemplo: `[script](src/extractor_youtube.py)`, `[dashboard](dashboard/dashboard_ejecutivo_claro.html)` o `[informe](../INFORME_FINAL_CLARO.md)`).
+* **QUEDA ESTRICTAMENTE PROHIBIDO el uso de rutas absolutas locales** (`file:///...` o `C:\Users\...`), ya que estas rutas quedan rotas cuando se visualiza el repositorio en GitHub o en la máquina de otro colaborador.
+
+
