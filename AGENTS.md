@@ -2,7 +2,7 @@
 **Asignatura:** Aplicaciones Analíticas de Big Data (UAPA)  
 **Proyecto:** Auditoría de Experiencia y Sentimiento de Marca en Telecomunicaciones vía YouTube Data API v3  
 **Caso de Estudio:** Claro República Dominicana (`@clarord`)  
-**Equipo de Trabajo:** Audric Rosario & Orlando Benítez  
+**Equipo de Trabajo:** Audric André Rosario Rosario (100089140) & Orlando Benítez Ventura (100090873)  
 **Rol del Asistente:** Senior Data Scientist & Business Intelligence Advisor (PhD en Big Data)
 
 ---
@@ -48,8 +48,8 @@ Para optimizar las 40 horas disponibles (20 horas por integrante), se establece 
 
 | Integrante | Rol Principal | Responsabilidades Clave | Secciones del Informe Asignadas |
 | :--- | :--- | :--- | :--- |
-| **Audric Rosario** | **Lead Data Engineering & NLP Modeling** | • Extracción y conexión con YouTube Data API v3.<br>• Pipeline de limpieza de texto y tokenización en español.<br>• Implementación y ajuste del modelo Transformer de sentimiento.<br>• Mantenimiento del repositorio GitHub y reproducibilidad del código. | **6.6** (Datos utilizados)<br>**6.7** (Preparación de datos)<br>**6.8** (Técnica analítica)<br>**6.9** (Análisis técnico)<br>**6.21** (Anexos de código) |
-| **Orlando Benítez** | **Lead Business Intelligence & Strategy** | • Definición del contexto empresarial y problemática gerencial.<br>• Especificación e interpretación de KPIs en el Dashboard Plotly.<br>• Formulación de la propuesta de solución y plan de acción.<br>• Elaboración del presupuesto de implementación y cronograma de Gantt. | **6.1 - 6.5** (Portada, Negocio, Problema, Objetivos, Justificación)<br>**6.10 - 6.11** (Visualizaciones y Dashboard)<br>**6.12 - 6.17** (Solución, Plan, Presupuesto, Gantt, Riesgos) |
+| **Audric André Rosario Rosario** (100089140) | **Lead Data Engineering & NLP Modeling** | • Extracción y conexión con YouTube Data API v3.<br>• Pipeline de limpieza de texto y tokenización en español.<br>• Implementación y ajuste del modelo Transformer de sentimiento.<br>• Mantenimiento del repositorio GitHub y reproducibilidad del código. | **6.6** (Datos utilizados)<br>**6.7** (Preparación de datos)<br>**6.8** (Técnica analítica)<br>**6.9** (Análisis técnico)<br>**6.21** (Anexos de código) |
+| **Orlando Benítez Ventura** (100090873) | **Lead Business Intelligence & Strategy** | • Definición del contexto empresarial y problemática gerencial.<br>• Especificación e interpretación de KPIs en el Dashboard Plotly.<br>• Formulación de la propuesta de solución y plan de acción.<br>• Elaboración del presupuesto de implementación y cronograma de Gantt. | **6.1 - 6.5** (Portada, Negocio, Problema, Objetivos, Justificación)<br>**6.10 - 6.11** (Visualizaciones y Dashboard)<br>**6.12 - 6.17** (Solución, Plan, Presupuesto, Gantt, Riesgos) |
 | **Conjunto** (Audric & Orlando) | **Revisión y Presentación** | • Consolidación del Resumen Ejecutivo (6.2), Conclusiones (6.18) y Recomendaciones (6.19).<br>• Grabación del video oficial de 5 a 8 minutos (50% tiempo c/u).<br>• Exposición presencial de 5 minutos en clase con apoyo de diapositivas. | **6.2, 6.18, 6.19, 6.20**<br>**Entregable 1** (PDF)<br>**Entregable 5** (Video) |
 
 ---

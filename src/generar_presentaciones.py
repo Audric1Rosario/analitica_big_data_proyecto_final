@@ -163,11 +163,11 @@ def generar_presentacion_video(output_path: str = "PRESENTACION_VIDEO_OFICIAL.pp
     p3.space_before = Pt(8)
 
     p4 = tf.add_paragraph()
-    p4.text = "Equipo de Trabajo:\n• Audric Rosario — Lead Data Engineering & NLP Modeling\n• Orlando Benítez — Lead Business Intelligence & Strategy"
-    p4.font.size = Pt(13)
+    p4.text = "Facilitador: Luis Eduardo Bayonet Robles\nEquipo de Trabajo:\n• Audric André Rosario Rosario (100089140) — Lead Data Engineering & NLP Modeling\n• Orlando Benítez Ventura (100090873) — Lead Business Intelligence & Strategy"
+    p4.font.size = Pt(12)
     p4.font.bold = True
     p4.font.color.rgb = COLOR_WHITE
-    p4.space_before = Pt(22)
+    p4.space_before = Pt(20)
 
     slide1.notes_slide.notes_text_frame.text = (
         "[00:00 - 00:35] ORLANDO: Saludos cordiales al facilitador y a los compañeros. "
@@ -407,11 +407,11 @@ def generar_presentacion_clase_5min(output_path: str = "PRESENTACION_CLASE_5MIN.
     p3.space_before = Pt(8)
 
     p4 = tf.add_paragraph()
-    p4.text = "Expositores: Audric Rosario & Orlando Benítez | Tiempo Estimado: 5 Minutos"
-    p4.font.size = Pt(13)
+    p4.text = "Facilitador: Luis Eduardo Bayonet Robles\nExpositores: Audric André Rosario Rosario (100089140) & Orlando Benítez Ventura (100090873) | Tiempo: 5 Minutos"
+    p4.font.size = Pt(12)
     p4.font.bold = True
     p4.font.color.rgb = COLOR_WHITE
-    p4.space_before = Pt(24)
+    p4.space_before = Pt(22)
 
     slide1.notes_slide.notes_text_frame.text = (
         "[0:00 - 0:45] ORLANDO: Buenos días profesor y compañeros. Hoy les presentamos cómo la analítica de redes sociales "

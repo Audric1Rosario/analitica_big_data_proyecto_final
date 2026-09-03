@@ -9,13 +9,13 @@
 
 ## 👥 Equipo de Trabajo y Roles
 
-* **Audric Rosario** — *Lead Data Engineering & NLP Modeling*
+* **Audric André Rosario Rosario** (Matrícula: 100089140) — *Lead Data Engineering & NLP Modeling*
   * Configuración y consumo optimizado de la YouTube Data API v3.
   * Pipeline de higienización de texto y lematización en español.
   * Implementación del modelo Transformer preentrenado para inferencia de sentimiento.
   * Arquitectura técnica del repositorio y reproducibilidad en GitHub.
 
-* **Orlando Benítez** — *Lead Business Intelligence & Executive Strategy*
+* **Orlando Benítez Ventura** (Matrícula: 100090873) — *Lead Business Intelligence & Executive Strategy*
   * Formulación del problema de negocio y objetivos empresariales.
   * Especificación de KPIs gerenciales y diseño del Dashboard Ejecutivo Plotly.
   * Propuesta de solución de negocio ("Claro Sentinel NLP") y plan de acción.

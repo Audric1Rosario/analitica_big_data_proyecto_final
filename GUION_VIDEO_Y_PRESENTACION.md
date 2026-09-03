@@ -2,7 +2,7 @@
 **Asignatura:** Aplicaciones Analíticas de Big Data (UAPA)  
 **Proyecto:** Auditoría de Experiencia y Sentimiento de Marca en Telecomunicaciones vía YouTube Data API v3  
 **Caso de Estudio:** Claro República Dominicana  
-**Equipo:** Audric Rosario & Orlando Benítez  
+**Equipo:** Audric André Rosario Rosario (100089140) & Orlando Benítez Ventura (100090873)  
 
 ---
 
@@ -11,8 +11,8 @@
 
 ### Resumen de Distribución de Tiempo
 * **Duración Total Estimada:** 7 minutos con 30 segundos.
-* **Orlando Benítez:** ~3 minutos y 45 segundos (Contexto de Negocio, Demostración del Dashboard, Solución 'Claro Sentinel' y Presupuesto).
-* **Audric Rosario:** ~3 minutos y 45 segundos (Extracción YouTube API v3, Demostración de Código en VS Code/Notebook, Modelo Transformer NLP y Conclusiones).
+* **Orlando Benítez Ventura:** ~3 minutos y 45 segundos (Contexto de Negocio, Demostración del Dashboard, Solución 'Claro Sentinel' y Presupuesto).
+* **Audric André Rosario Rosario:** ~3 minutos y 45 segundos (Extracción YouTube API v3, Demostración de Código en VS Code/Notebook, Modelo Transformer NLP y Conclusiones).
 
 ---
 
@@ -23,7 +23,7 @@
 
 > **Orlando:**  
 > *(Con Diapositiva 1 en pantalla)*  
-> "Saludos cordiales al facilitador y a los compañeros de la asignatura *Aplicaciones Analíticas de Big Data*. Mi nombre es **Orlando Benítez** y junto a mi compañero **Audric Rosario**, presentamos nuestro proyecto final: *Auditoría de Experiencia del Cliente y Sentimiento de Marca en Telecomunicaciones mediante Procesamiento de Lenguaje Natural y la YouTube Data API v3*, enfocado en **Claro República Dominicana**.
+> "Saludos cordiales a nuestro facilitador, el profesor **Luis Eduardo Bayonet Robles**, y a los compañeros de la asignatura *Aplicaciones Analíticas de Big Data*. Mi nombre es **Orlando Benítez Ventura** (matrícula 100090873) y junto a mi compañero **Audric André Rosario Rosario** (matrícula 100089140), presentamos nuestro proyecto final: *Auditoría de Experiencia del Cliente y Sentimiento de Marca en Telecomunicaciones mediante Procesamiento de Lenguaje Natural y la YouTube Data API v3*, enfocado en **Claro República Dominicana**.
 > 
 > *(Cambiar a Diapositiva 2: El Problema de Negocio)*  
 > En un mercado donde Claro atiende a más de cinco millones de suscriptores, la calidad percibida del servicio es el factor decisivo para evitar que un usuario se porte a la competencia. Las encuestas tradicionales por llamada o SMS tienen una tasa de respuesta menor al 4% y tardan semanas en consolidarse. Mientras tanto, en los canales digitales públicos como YouTube, miles de dominicanos comentan voluntariamente sobre caídas de internet de fibra óptica, velocidad de la red 5G o dificultades de atención. Nuestro objetivo fue transformar esa voz no solicitada del consumidor en inteligencia de negocio accionable en tiempo real."
