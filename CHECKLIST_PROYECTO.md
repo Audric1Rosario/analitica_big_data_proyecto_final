@@ -39,6 +39,9 @@
   - [x] Script de compilación `src/compilar_docx.py` para generar `INFORME_FINAL_CLARO.docx`.
   - [x] Notebook interactivo `notebooks/analitica_claro_youtube.ipynb` estructurado para Google Colab y Jupyter (Entregable 2).
 
-- [x] **Fase 6: Guiones de Presentación y Video**
+- [x] **Fase 6: Guiones de Presentación, Video y Diapositivas PPTX**
   - [x] Guion detallado para el **Video Oficial de 5 a 8 minutos (Entregable 5)** con división de diálogo minuto a minuto entre Audric Rosario y Orlando Benítez (`GUION_VIDEO_Y_PRESENTACION.md`).
   - [x] Guion y estructura para la **Presentación en Clase de 5 minutos** con guía diapositiva por diapositiva para el futuro PPTX (`GUION_VIDEO_Y_PRESENTACION.md`).
+  - [x] **Diapositivas PPTX para el Video Oficial:** [`PRESENTACION_VIDEO_OFICIAL.pptx`](PRESENTACION_VIDEO_OFICIAL.pptx) (8 diapositivas en formato panorámico 16:9 con notas de orador integradas e indicaciones de transición a código/dashboard).
+  - [x] **Diapositivas PPTX para la Clase de 5 Minutos:** [`PRESENTACION_CLASE_5MIN.pptx`](PRESENTACION_CLASE_5MIN.pptx) (6 diapositivas con cronómetro y parlamento optimizado).
+  - [x] Sincronización completa del repositorio en GitHub (`main`) con Conventional Commits.
