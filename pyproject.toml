@@ -1,0 +1,38 @@
+[project]
+name = "proyecto-final-claro-nlp"
+version = "1.0.0"
+description = "Auditoría de Experiencia y Sentimiento de Marca en Telecomunicaciones vía YouTube Data API v3 y Transformers (Claro RD)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Audric André Rosario Rosario", email = "100089140@p.uapa.edu.do" },
+    { name = "Orlando Benítez Ventura", email = "100090873@p.uapa.edu.do" }
+]
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "transformers>=4.35.0",
+    "torch>=2.0.0",
+    "nltk>=3.8.0",
+    "google-api-python-client>=2.100.0",
+    "plotly>=5.18.0",
+    "python-docx>=1.1.0",
+    "python-pptx>=1.0.0",
+    "openpyxl>=3.1.0",
+    "tqdm>=4.66.0",
+    "python-dotenv>=1.0.0",
+    "kaleido>=1.4.0",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
